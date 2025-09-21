@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet');
 
 *,
 *::after,
@@ -2415,15 +2416,14 @@ body {
 
 .titulo {
   margin-bottom: 600px;
-  font-family: "Great Vibes", cursive;
+  font-family: "SUSE Mono", sans-serif;
   color: yellow;
   position: absolute;
   font-weight: normal;
-  letter-spacing: 8px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
 
 @keyframes fadeIn {
@@ -2438,13 +2438,13 @@ body {
 @media (max-width: 768px) {
   .titulo {
     margin-bottom: 350px;
-    font-size: 6vw; /* Ajusta el tamaño del título para pantallas más pequeñas */
+    font-size: 4.5vw; /* Ajusta el tamaño del título para pantallas más pequeñas */
   }
 }
 
 @media (max-width: 480px) {
   .title {
-    font-size: 7vw; /* Más pequeño aún en pantallas móviles */
+    font-size: 5vw; /* Más pequeño aún en pantallas móviles */
   }
 }
 
